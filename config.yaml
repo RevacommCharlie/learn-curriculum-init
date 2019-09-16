@@ -53,5 +53,5 @@ Standards:
     ContentFiles:
       - Type: Lesson
         UID: e79ee96a-40e7-4baa-abd4-416a4773ba12
-        Path: /Unit2/lesson2.md
+        Path: /Unit2/lesson1.md
         # DefaultVisibility: hidden
