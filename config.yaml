@@ -1,0 +1,57 @@
+# Type `configyaml` + [tab] to add template to this file. Tab-complete requires https://github.com/gSchool/galvanize-flavored-markdown
+# Config.yaml specify the content and ordering within a curriculum block repo
+#
+# Supported Fields
+# ==========================
+# Standards -- (Standards = Units). An array of Units for a block
+# Standard.Title -- The Unit title that shows up on the curriculum overview
+# Standard.UID -- A unique ID for the Unit.
+# Standard.Description -- The Unit description that shows up on the curriculum overview
+# Standard.SuccessCriteria -- An array of success criteria that can be viewed when scoring the checkpoint in a Unit.
+# Standard.ContentFiles -- An array of Lessons and (optional) Checkpoint in a Unit.
+# Standard.ContentFiles.Type -- 'Lesson' or 'Checkpoint'
+# Standard.ContentFiles.UID -- A unique ID for the lesson or checkpoint.
+# Standard.ContentFiles.Path -- The absolute path to the Lesson, starting with `/`.
+# Standard.ContentFiles.DefaultVisibility -- (optional) Set to 'hidden' to hide when a course first starts.
+# Standard.ContentFiles.Autoscore -- (optional, for Checkpoints only) submit checkpoint scores without review
+# Standard.ContentFiles.MaxCheckpointSubmissions -- (optional, for Checkpoints only) limit the number of submissions
+#
+# Related Snippets
+# ==========================
+# `lessonyaml`: add a lesson
+# `unityaml`: add a Unit
+# Be sure to place the cursor at the appropriate indentation level before running either of these.
+#
+# All UIDs must be unique within a repo. Use option-command-G from uuidgen plugin
+
+---
+Standards:
+  - Title: Unit1
+    UID: ae7e38a9-3e87-4f4f-82b5-36945dca2d8f
+    Description: Things to learn
+    SuccessCriteria:
+      - The first success criteria
+    ContentFiles:
+      - Type: Lesson
+        UID: 560326f2-7f57-4de9-8b47-a3d0ae242c90
+        Path: /Unit1/lesson1
+        # DefaultVisibility: hidden
+      - Type: Lesson
+        UID: 1ede0fdf-fc5e-46e2-b86e-1e4f34a1a5d3
+        Path: /Unit1/lesson2.yaml
+        # DefaultVisibility: hidden
+      - Type: Checkpoint # optional
+        UID: cd1909ff-70b7-4480-a42c-de26653eff5a
+        Path: /Unit1/checkpoint.md
+        Autoscore: true
+        # MaxCheckpointSubmissions: 1
+  - Title: Unit2
+    UID: 12e05829-de93-4918-ab0c-ea1624d01cb9
+    Description: More things to learn
+    SuccessCriteria:
+      - Success criteria
+    ContentFiles:
+      - Type: Lesson
+        UID: e79ee96a-40e7-4baa-abd4-416a4773ba12
+        Path: /Unit2/lesson2.yaml
+        # DefaultVisibility: hidden
