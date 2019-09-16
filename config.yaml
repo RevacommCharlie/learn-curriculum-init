@@ -34,11 +34,11 @@ Standards:
     ContentFiles:
       - Type: Lesson
         UID: 560326f2-7f57-4de9-8b47-a3d0ae242c90
-        Path: /Unit1/lesson1
+        Path: /Unit1/lesson1.md
         # DefaultVisibility: hidden
       - Type: Lesson
         UID: 1ede0fdf-fc5e-46e2-b86e-1e4f34a1a5d3
-        Path: /Unit1/lesson2.yaml
+        Path: /Unit1/lesson2.md
         # DefaultVisibility: hidden
       - Type: Checkpoint # optional
         UID: cd1909ff-70b7-4480-a42c-de26653eff5a
@@ -53,5 +53,5 @@ Standards:
     ContentFiles:
       - Type: Lesson
         UID: e79ee96a-40e7-4baa-abd4-416a4773ba12
-        Path: /Unit2/lesson2.yaml
+        Path: /Unit2/lesson2.md
         # DefaultVisibility: hidden
