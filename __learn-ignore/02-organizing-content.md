@@ -1,8 +1,17 @@
 # Organizing Content for Learn
 
-## Folder Structure
+## How Learn Organizes Content
 
-Organize your units as top-level folders and lessons as files within those folders.
+There are two primary strategies for organizing curriculum content.
+
+1. Write a config.yaml file that specifies the exact content and order of the materials in your unit.
+2. Follow a convention and let Learn write the convention for you!
+
+This guide will focus mostly on the second option. You can always modify the automatically generated config.yaml later, and it's easier to learn how it works by looking at it as an example.
+
+## Folder Structure Convention
+
+Every top-level folder in your repo will become a single unit. The files within those folders will become lessons and assessments.
 
 ```
 repo-name/
@@ -16,7 +25,7 @@ repo-name/
 
 This example will make a curriculum block with 1 unit named "first unit" and 5 lessons.
 
-You can create multiple units in the same repo, but it is generally a better idea to use multiple repos, each with a single unit, _unless you are sure that a group of units will always be included together in the same order._
+You can create multiple units in the same repo, but note that you can only change the order of repos when setting up a course. This means that the order of multiple units in a repo will always be the same.
 
 * Lessons can be any of .md, .ipynb, or .pdf
 * Units and lessons will be ordered alphanumerically
@@ -43,6 +52,12 @@ repo-name/
 │    ├----05-quiz.hidden.md
 │    ├----05-assessment.checkpoint.md
 ```
+
+## Hidden Files and Folder
+
+To have Learn ignore unit folders, name them with a leading `__` (double underscore). This folder you are in uses that convention, which is why it isn't published when you ran `learn preview .`
+
+You can do the same thing with individual files.
 
 ## Additional customization
 
