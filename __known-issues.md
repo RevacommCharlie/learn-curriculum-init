@@ -90,3 +90,16 @@ module.exports = () => {
 ## !end-challenge
 
 <!----------------------END CHALLENGE----------------------------->
+
+## draft
+
+* **Preview** (10 minutes): Preview files before committing to Git.
+* **Publish** (10 minutes): Publish files from your Github remote to Learn.
+* **Cohort Setup** (20 minutes): Add your new curriculum to a cohort.
+
+Starting from scratch
+* **Organize Content** (15 minutes): Best practices when setting up new curriculum.
+
+Adding interactivity
+* **Adding Challenges** (60 minutes): Create exercises and practice opportunities for students.
+* **Create Assessments** (15 minutes): Once you have mastered Learn Challenges, you can build assessments.

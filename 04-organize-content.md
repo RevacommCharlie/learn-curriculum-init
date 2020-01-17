@@ -2,15 +2,23 @@
 
 There are two primary strategies for organizing content for Learn.
 
-**Option 1**
-Write a config.yaml file that defines included content and sequence.
+**Option 1: Manual Configuration**
+Write a `config.yaml` file that defines included content and sequence.
 
-**Option 2**
-Follow a naming convention and let Learn write an autoconfig.yaml for you!
+**Option 2: Automatic Configuration**
+Follow a folder and file naming convention and let Learn write an `autoconfig.yaml` for you!
 
 This page focuses on the automatic option. If you do want to learn the manual config way, it's probably still easiest to start with an autoconfig.yaml and study it as an example.
 
-## Folder structure convention
+## Selecting between auto and manual config
+
+Manual configuration has priority over automatic configuration.
+
+* If there is a `config.yaml` in your repo, that file will be used. Learn will not create or process an `autoconfig.yaml`. This makes things backward compatible for existing curriculum.
+
+* If a `config.yaml` is not present in your repo, Learn will create and process an `autoconfig.yaml` whenever you run `learn preview` or `learn publish`
+
+## Autoconfig folder structure
 
 If you use autoconfig, each top-level folder in your repo will become a single unit (excluding specific folders is covered below). The files within those folders will become lessons and assessments.
 
@@ -61,10 +69,6 @@ repo-name/
 ## Ignoring files and folders
 
 To have the autoconfig ignore top-level folders, or files within those folders, name them with a leading `__` (double underscore).
-
-## Priority between auto and manual config
-
-If both a config.yaml and autoconfig.yaml are present in your repo, Learn will always use the manual config.yaml.
 
 ## Manual configuration
 
