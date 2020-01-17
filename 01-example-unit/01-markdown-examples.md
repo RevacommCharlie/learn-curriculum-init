@@ -2,8 +2,6 @@
 
 Lessons are written in markdown. You can see a bunch of examples of markdown syntax in this file.
 
-To see what this markdown looks like in Learn, run `learn preview 01-example-unit/02-markdown-examples.md`.
-
 # H1 Top-Level Heading
 
 Galvanize is committed to creating opportunities for Veterans to gain the skills and knowledge they need to enter the tech industry after service to their country. As Veterans Day approaches, we’ll be chronicling the stories…
@@ -56,7 +54,7 @@ Bulleted with `-`
 
 Links to markdown files in the curriculum will redirect within Learn. Write them with a relative path in the repo. Links to lessons in other repos are not supported.
 
-[hello world](01-hello-world.md)
+[challenge examples](02-challenges.md)
 
 ## Link (external)
 
@@ -70,11 +68,11 @@ Images included in your repo will be automatically uploaded to S3 for display on
 
 The following image is placed inline ![cookie](images/cookie.png).
 
-The same image is on it's on line.
+The same image is on it's own line.
 
 ![cookie](images/cookie.png)
 
-Large images will be scaled to fit the content container.
+Large images will be scaled to fit the content column.
 
 ![taft point](images/aws.png)
 
