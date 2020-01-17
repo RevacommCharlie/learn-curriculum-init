@@ -16,7 +16,7 @@ Remove the `-o` flag if you don't want a new tab to automatically open in your b
 learn preview 01-example-unit/01-markdown-examples.md
 ```
 
-Instead of just one file, preview the entire unit--
+Instead of just one file, preview the entire unit. You will need to click into the unit to see its contents.
 
 ```
 learn preview -o .

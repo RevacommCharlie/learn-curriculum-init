@@ -11,13 +11,13 @@ There is an assessment in the example unit that you can look at -- `01-example-u
 Try out a working example in Learn. The challenges will act like a lesson with this command, but you can test the questions out this way--
 
 ```
-learn -o preview 01-example-unit/03-checkpoint.md
+learn preview -o 01-example-unit/03-checkpoint.md
 ```
 
 Preview the entire unit to see the questions as an assessment. (You will need to open the unit and navigate to the Assessment Example). You won't be able to submit because you aren't signed in as a student.
 
 ```
-learn -o preview .
+learn preview -o .
 ```
 
 ## You did it!
