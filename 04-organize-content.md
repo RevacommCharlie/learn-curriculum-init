@@ -1,5 +1,23 @@
 # Organize Content for Learn
 
+There are two primary strategies for organizing content for Learn -- manual and automatic configuration.
+
+#### Option 1: Manual Configuration
+
+Write a `config.yaml` file that defines included content and sequence.
+
+If there is a `config.yaml` file in your repo, it will always take priority over auto configuration.
+
+#### Option 2: Automatic Configuration
+
+If there is _not_ a `config.yaml` file in your repo, Learn will write an `autoconfig.yaml` for you!
+
+Follow a folder and file naming convention and let Learn write an `autoconfig.yaml` for you!
+
+The rest of this guide focuses on the automatic option.
+
+# Organize Content for Learn
+
 There are two primary strategies for organizing content for Learn.
 
 **Option 1: Manual Configuration**
@@ -17,6 +35,8 @@ Manual configuration has priority over automatic configuration.
 * If there is a `config.yaml` in your repo, that file will be used. Learn will not create or process an `autoconfig.yaml`. This makes things backward compatible for existing curriculum.
 
 * If a `config.yaml` is not present in your repo, Learn will create and process an `autoconfig.yaml` whenever you run `learn preview` or `learn publish`
+
+=============================
 
 ## Autoconfig folder structure
 
