@@ -30,4 +30,4 @@ If a cohort does not want to receive updates, the instructor can choose to chang
 
 ## Continue
 
-Next: [04-organize-content.md](04-organize-content.md)
+Next: [05-challenges.md](05-challenges.md)

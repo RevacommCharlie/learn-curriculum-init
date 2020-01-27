@@ -79,4 +79,4 @@ For help writing or modifying the config.yaml, download the snippets from https:
 
 ## Continue
 
-Next: [05-challenges.md](05-challenges.md)
+Next: [04-cohort-setup.md](04-cohort-setup.md)
