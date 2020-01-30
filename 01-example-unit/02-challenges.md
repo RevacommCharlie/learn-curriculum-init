@@ -510,7 +510,7 @@ SQL challenges will render in preview, but will not function if you submit an an
 * language: sql
 * id: 7264b4e8-1a0d-44c5-b019-601305617ff8
 * title: Absence of a join with Left Outer Join
-* data_path: /sql-files/foodtruck.sql
+* data_path: /01-example-unit/sql-files/foodtruck.sql
 
 <!--'question' is required, markdown, the question to be answered-->
 
