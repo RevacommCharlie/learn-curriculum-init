@@ -12,7 +12,7 @@ Interactive questions called "challenges" can be added to any markdown lesson to
 * code snippet--js, py, java, sql (code directly in Learn)
 * project, testable project (code locally, submit a repo)
 
-<br><br>
+
 
 ## Multiple Choice
 
@@ -64,7 +64,7 @@ Denver
 <!----------------------END CHALLENGE----------------------------->
 
 
-<br><br>
+
 
 ## Checkbox
 
@@ -104,7 +104,7 @@ Mark all of the cities that are home to a Galvanize campus.
 
 <!----------------------END CHALLENGE----------------------------->
 
-<br><br>
+
 
 ## Short Answer
 
@@ -152,7 +152,7 @@ By default, answers evaluated as case-insensitive exact match. If answer wrapped
 
 <!----------------------END CHALLENGE----------------------------->
 
-<br><br>
+
 
 ## Number
 
@@ -194,7 +194,7 @@ Write your answer as a decimal to 5 places
 
 <!----------------------END CHALLENGE----------------------------->
 
-<br><br>
+
 
 ## Paragraph
 
@@ -234,7 +234,7 @@ Your answer may have covered accessibility, SEO, and human readability.
 
 <!----------------------END CHALLENGE----------------------------->
 
-<br><br>
+
 
 ## Javascript Code Snippet
 
@@ -315,7 +315,7 @@ describe('repeats', function() {
 
 <!----------------------END CHALLENGE----------------------------->
 
-<br><br>
+
 
 ## Python Code Snippet
 
@@ -397,7 +397,7 @@ class TestChallenge(unittest.TestCase):
 
 <!----------------------END CHALLENGE----------------------------->
 
-<br><br>
+
 
 ## Java Code Snippet
 
@@ -477,7 +477,7 @@ public class SnippetTest {
 <!----------------------END CHALLENGE----------------------------->
 
 
-<br><br>
+
 
 ## SQL Code Snippet
 
@@ -547,7 +547,7 @@ ORDER BY users.last DESC
 
 <!----------------------END CHALLENGE----------------------------->
 
-<br><br>
+
 
 ## Project Challenge
 
@@ -589,7 +589,7 @@ https://github.com/<username>/js-native-array-methods
 
 <!----------------------END CHALLENGE----------------------------->
 
-<br><br>
+
 
 ## Testable Project
 
