@@ -7,6 +7,7 @@
 * type: multiple-choice
 * id: 06f68dd8-0819-4504-8d53-96246dc2d83f
 * title: How did it go?
+* points: 3
 <!--Other optional fields (checkpoints only) -->
 <!--`points: 1`: the number of points for scoring as a checkpoint-->
 <!--`topics: python, pandas`: the topics for analyzing points-->
@@ -42,6 +43,7 @@
 * type: checkbox
 * id: b73598d5-4c11-4900-a711-cc30a9d57f21
 * title: JSX components
+* points: 10
 <!--Other optional fields (checkpoints only) -->
 <!--`points: 1`: the number of points for scoring as a checkpoint-->
 <!--`topics: python, pandas`: the topics for analyzing points-->
