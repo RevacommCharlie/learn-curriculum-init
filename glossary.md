@@ -120,4 +120,4 @@ Roles for users within Learn and Auth
 
 * `forge.blocks_manager`: Publish new blocks and new block versions in Learn.
 
-* `forge.instructor`: (Cohort-level permission.) Manage any cohort in Learn. View instructor-only pages for setup and grading.
+* `forge.instructor`: (Cohort-level permission.) Manage specific cohorts in Learn. View instructor-only pages for setup and grading.
