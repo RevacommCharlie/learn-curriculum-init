@@ -24,10 +24,10 @@ This command is part of a new curriculum creation flow that works like this:
 
 There are two ways to learn how to use the CLI tools.
 
-#### Reference Guide
-* Shows a quick list of things you can do with the CLI.
-* You might miss some things that you would learn from the walkthrough, but it will allow you to immediately explore using the tool.
-* To view the *Reference Guide*, open this repo in your editor and go to `[./reference-guide.md]`.
+#### Glossary
+* Shows a quick list of things you can do with the CLI (in addition to defining other Learn terms)
+* You will miss some things that you would learn from the walkthrough, but it will allow you to immediately explore using the tool.
+* To view the *Glossary*, open this repo in your editor and go to `[./glossary.md]`.
 
 
 #### Walkthrough
