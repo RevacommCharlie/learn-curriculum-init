@@ -33,8 +33,8 @@ learn preview -o [path-to-your-file.md]`
 Feel free to revise your page and re-run the `learn preview` command until you are ready to move on.
 
 **Note**
-If you are already familiar with Learn, you might be wondering how you can do this without modifying a config.yaml. Automatic configuration is a new feature, covered in [04-organizing-content.md](04-organizing-content.md).
+If you are already familiar with Learn, you might be wondering how you can do this without modifying a config.yaml. Automatic configuration is a new feature, covered in `04-organizing-content.md`.
 
 ## Continue
 
-Next: [02-publish.md](02-publish.md)
+Next: `02-publish.md`

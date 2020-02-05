@@ -1,6 +1,6 @@
 # Cohort Setup
 
-The previous pages covered creating, previewing, and publishing of a curriculum block repo. This makes content available for all cohorts on Learn, but doesn't actually attach it to any one cohort for students to use. To do that, create a cohort in the Learn UI and attach one or more curriculum repos.
+The previous pages covered creating, previewing, and publishing of a curriculum block repo. This section explains how to make content available for all cohorts on Learn.
 
 ## Step 1: Create a cohort
 
@@ -30,4 +30,4 @@ If a cohort does not want to receive updates, the instructor can choose to chang
 
 ## Continue
 
-Next: [05-challenges.md](05-challenges.md)
+Next: `05-challenges.md`
