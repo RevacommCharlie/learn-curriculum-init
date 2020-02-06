@@ -26,4 +26,4 @@ learn preview -o 01-example-unit/02-challenges.md
 
 ## Continue
 
-Next: [06-assessments.md](06-assessments.md)
+Next: `06-assessments.md`

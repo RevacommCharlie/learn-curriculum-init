@@ -42,4 +42,4 @@ Whenever you need to write or modify curriculum--
 
 ## Continue
 
-Next: [03-organize-content.md](03-organize-content.md)
+Next: `03-organize-content.md`
