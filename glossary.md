@@ -52,7 +52,7 @@ Learn more -- `/__walkthrough/03-organize-content.md`
 
 * **Block**: The smallest discrete building block in Learn. Blocks are one repo of content published individually in Learn. Contain units, Lessons, Checkpoints, etc.
 
-* **Unit**: Erin can you add this?
+* **Unit**: Appears as a square "card" on the curriculum overview page in Learn. Contain Lessons, Checkpoints, etc. In a Block repo's Config.yaml units are called `Standards`.
 
 * **Lesson**: Content file within a repo that holds written material, videos, slides, and challenges. Can be markdown, pdf, or ipynb.
 
