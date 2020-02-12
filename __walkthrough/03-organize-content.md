@@ -1,24 +1,10 @@
-# Organize Content for Learn
+# Organize Content for Learn Following Conventions
 
-There are two primary strategies for organizing content for Learn -- manual and automatic configuration.
-
-#### Option 1: Manual Configuration
-
-Write a `config.yaml` file that defines included content and sequence.
-
-If there is a `config.yaml` file in your repo, it will always take priority over auto configuration.
-
-#### Option 2: Automatic Configuration
-
-If there is _not_ a `config.yaml` file in your repo, Learn will write an `autoconfig.yaml` for you!
-
-Follow a folder and file naming convention and let Learn write an `autoconfig.yaml` for you!
-
-The rest of this guide focuses on the automatic option.
+There are two options for organizing content for Learn -- write a `config.yaml` or allow Learn to automatically configure your content. The page focuses on the automatic way, and then briefly describes the `config.yaml` process at the end.
 
 ## Folder structure
 
-If you use autoconfig, each top-level folder in your repo will become a single unit (excluding specific folders is covered below). The files within those folders will become lessons and assessments.
+If you do not include a `config.yaml` in your repo, each top-level folder in your repo will become a single unit. The files within those folders will become lessons and assessments.
 
 ```
 repo-name/
@@ -31,9 +17,6 @@ repo-name/
 ```
 
 Numbers and punctuation will be removed from folder names, so the example above will make a curriculum block with 1 unit named "First Unit" containing 5 files.
-
-**Note**
-You can create multiple units in one repo, but they will always have a fixed order. Only repos can be reordered when setting up a course.
 
 ## File types
 
@@ -66,17 +49,17 @@ repo-name/
 
 ## Ignoring files and folders
 
-To have the autoconfig ignore top-level folders, or files within those folders, name them with a leading `__` (double underscore).
+To have the autoconfig ignore top-level folders, or files within those folders, name them with a leading `__` (double underscore). The folder you are in right now `__walkthrough` follows this convention so that it won't be accidentally published as part of the example unit.
 
-## Manual configuration
+## Manual configuration with a config.yaml
 
 To switch to manual configuration --
 
-1. Create a copy of the auto-configuration so that you can edit it. `cp autoconfig.yaml config.yaml`. Your `config.yaml` will have priority over the generated `autoconfig.yaml`.
+1. Create a copy of the auto-configuration so that you can edit it. `cp autoconfig.yaml config.yaml`. Your `config.yaml` will now have priority over the generated `autoconfig.yaml`.
 2. Modify `config.yaml` to add/remove items, reorder, and set hidden/instructor/resource/checkpoint status.
 
 For help writing or modifying the config.yaml, download the snippets from https://github.com/gSchool/galvanize-flavored-markdown and tab-complete `configyaml` to insert a template.
 
 ## Continue
 
-Next: [05-challenges.md](05-challenges.md)
+Next: `04-cohort-setup.md`

@@ -42,4 +42,4 @@ Whenever you need to write or modify curriculum--
 
 ## Continue
 
-Next: [03-cohort-setup.md](03-cohort-setup.md)
+Next: `03-organize-content.md`

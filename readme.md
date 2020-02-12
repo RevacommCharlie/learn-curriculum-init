@@ -2,10 +2,10 @@
 
 This repo will help you learn how to publish content for Learn.
 
-If you haven't previewed Hello World yet, run
+To get started, run
 
 ```
-learn preview -o hello-world.md
+learn preview -o getting-started.md
 ```
 
-If you've already done that, head over to [01-preview.md](01-preview.md).
+and follow the directions from there.
