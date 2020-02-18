@@ -26,7 +26,7 @@ There are two ways to learn how to use the CLI tools.
 
 * Shows a quick list of things you can do with the CLI (in addition to defining other Learn terms)
 * You will miss some things that you would learn from the walkthrough, but it will allow you to immediately explore using the tool.
-* To view the *Glossary*, open this repo in your editor and go to `[/glossary.md]`.
+* To view the *Glossary*, open this repo in your editor and go to `/glossary.md`.
 
 
 #### Walkthrough
@@ -46,4 +46,4 @@ There are two ways to learn how to use the CLI tools.
     * Adding Challenges (60 minutes)
     * Create Assessments (15 minutes)
 
-* To view the *Walkthrough*, open this repo in your editor and go to `[/__walkthrough/]`.
+* To view the *Walkthrough*, open this repo in your editor and go to `/__walkthrough/`.
