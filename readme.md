@@ -1,11 +1,3 @@
 # Publishing Content for Learn
 
-This repo will help you learn how to publish content for Learn.
-
-To get started, run
-
-```
-learn preview -o getting-started.md
-```
-
-and follow the directions from there.
+This repo has example curriculum for use with the CLI walkthrough at https://learn-2.galvanize.com/cohorts/667/blocks/13/content_files/walkthrough/01-overview.md
