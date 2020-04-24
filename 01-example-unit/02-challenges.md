@@ -46,10 +46,6 @@ Which of these cities is home to a Galvanize campus?
 * Denver
 * Fort Collins
 * Miami
-* $$x = {-b \pm \sqrt{b^2-4ac} \over 2a}.$$
-* Inline LaTeX \\( z^2 = x^2 + y^2 \\)
-* \\( z^2 = x^2 + y^2 \\)
-* `public void moveTo(int x, int y, int z)`
 
 ### !end-options
 
