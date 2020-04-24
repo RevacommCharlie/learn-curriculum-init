@@ -487,11 +487,6 @@ The database used is:
 
 `PostgreSQL 10.6 on x86_64-pc-linux-gnu, compiled by gcc (GCC) 4.8.3 20140911 (Red Hat 4.8.3-9), 64-bit`
 
-### !callout-info
-## Known issue with SQL challenge preview
-SQL challenges will render in preview, but will not function if you submit an answer. To test them, publish the repo and try them out attached to an example cohort.
-### !end-callout
-
 <!----------------------BEGIN CHALLENGE----------------------------->
 
 ### !challenge
