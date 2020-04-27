@@ -60,21 +60,23 @@ Links to markdown files in the curriculum will redirect within Learn. Write them
 
 Links to external content should be absolute links, starting with `http://` or `https://`
 
-[Curriculum on gSchool](https://github.com/gSchool)
+[Google](https://www.google.com/)
+
+[Curriculum on github/gSchool](https://github.com/gSchool)
 
 ## Images
 
 Images included in your repo will be automatically uploaded to S3 for display on Learn.
 
-The following image is placed inline ![cookie](images/cookie.png).
+The following image is placed inline ![react](images/react-logo.png).
 
 The same image is on it's own line.
 
-![cookie](images/cookie.png)
+![react](images/react-logo.png)
 
 Large images will be scaled to fit the content column.
 
-![taft point](images/aws.png)
+![datascience](images/kmeans_example.png)
 
 ## Images links <br>
 
@@ -85,9 +87,7 @@ This logo is a clickable link
 ## Video embedded with a markdown tag
 
 ### !vimeo
-
-* id: 214062185
-
+* id: 237762731
 ### !end-vimeo
 
 ## Video embedded with an iframe
